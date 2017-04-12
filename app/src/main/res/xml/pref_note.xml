@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="@string/pref_sort_time_value"
+        android:entries="@array/pref_sort_option_labels"
+        android:entryValues="@array/pref_sort_option_values"
+        android:key="@string/pref_sort_key"
+        android:title="@string/pref_sort_label" />
+
+    <ListPreference
+        android:defaultValue="@string/pref_light_app_style_value"
+        android:entries="@array/pref_app_style_option_labels"
+        android:entryValues="@array/pref_app_style_option_values"
+        android:key="@string/pref_app_style_key"
+        android:title="@string/pref_app_style_label" />
+</PreferenceScreen>

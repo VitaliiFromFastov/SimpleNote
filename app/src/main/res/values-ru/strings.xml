@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_label">Добавить метку</string>
+    <string name="action_save">Сохранить</string>
+    <string name="add_new_note_title">Новая заметка</string>
+    <string name="alert_dialog_title">Добавить приоритет</string>
+    <string name="cancel_deleting">Отменить</string>
+    <string name="delete_note_message">Удалить заметку?</string>
+    <string name="delete_task">Удалить</string>
+    <string name="edit_text_hint">Начните вводить текст...</string>
+    <string name="edit_title">Редактировать</string>
+    <string name="enter_note_toast">Введите текст</string>
+    <string name="label_extra_high">Очень высокий</string>
+    <string name="label_extra_low">Очень низкий</string>
+    <string name="label_high">Высокий</string>
+    <string name="label_low">Низкий</string>
+    <string name="label_medium">Средний</string>
+    <string name="label_no_priority">Без приоритета</string>
+    <string name="list_empty">Пока что у вас нет заметок</string>
+    <string name="note_created">Создана новая заметка</string>
+    <string name="pref_app_style_label">Сменить цвет приложения</string>
+    <string name="pref_app_style_label_dark">Темный</string>
+    <string name="pref_app_style_label_hot">Насыщеный</string>
+    <string name="pref_app_style_label_light">Светлый</string>
+    <string name="pref_sort_label">Сортировать заметки</string>
+    <string name="pref_sort_label_color">За приоритетом</string>
+    <string name="pref_sort_label_time">По времени</string>
+    <string name="search_hint">Искать заметку</string>
+    <string name="search_menu_item">Искать</string>
+    <string name="toast_failed_to_delete_note">Не удалось удалить заметку</string>
+    <string name="toast_failed_to_update_note">Не удалось обновить заметку</string>
+    <string name="toast_note_deleted">Заметка удалена!</string>
+    <string name="toast_successfully_updated_note">Заметка изменена!</string>
+    <string name="updated">Изменено:</string>
+    <string name="settings">Настройки</string>
+</resources>

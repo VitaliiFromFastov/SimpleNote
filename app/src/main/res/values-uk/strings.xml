@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нотатки</string>
+    <string name="action_delete">Видалити</string>
+    <string name="action_label">Додати мітку</string>
+    <string name="action_save">Зберегти</string>
+    <string name="add_new_note_title">Нова нотатка</string>
+    <string name="alert_dialog_title">Додати пріоритет</string>
+    <string name="cancel_deleting">Відмінити</string>
+    <string name="delete_note_message">Видалити нотатку?</string>
+    <string name="delete_task">Видалити</string>
+    <string name="edit_text_hint">Почніть вводити текст...</string>
+    <string name="edit_title">Редагувати</string>
+    <string name="enter_note_toast">Введіть текст</string>
+    <string name="label_extra_high">Дуже високий</string>
+    <string name="label_extra_low">Дуже низький</string>
+    <string name="label_high">Високий</string>
+    <string name="label_low">Низький</string>
+    <string name="label_medium">Середній</string>
+    <string name="label_no_priority">Без пріоритету</string>
+    <string name="list_empty">У вас немає жодної нотатки</string>
+    <string name="note_created">Створено нову нотатку</string>
+    <string name="pref_app_style_label">Змітини колір додатку</string>
+    <string name="pref_app_style_label_dark">Темний</string>
+    <string name="pref_app_style_label_hot">Насичений</string>
+    <string name="pref_app_style_label_light">Світлий</string>
+    <string name="pref_sort_label">Сортувати нотатки</string>
+    <string name="pref_sort_label_color">За приорітетом</string>
+    <string name="pref_sort_label_time">За часом</string>
+    <string name="search_hint">Шукати нотатку</string>
+    <string name="search_menu_item">Шукати</string>
+    <string name="toast_failed_to_delete_note">Не вдалося видалити</string>
+    <string name="toast_failed_to_update_note">Не вдалося редагувати</string>
+    <string name="toast_note_deleted">Нотатку видалено!</string>
+    <string name="toast_successfully_updated_note">Нотатку оновлено!</string>
+    <string name="updated">Оновлено:</string>
+    <string name="settings">Налаштування</string>
+</resources>

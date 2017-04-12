@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label ordering must match values -->
+    <array name="pref_sort_option_labels">
+        <item>@string/pref_sort_label_time</item>
+        <item>@string/pref_sort_label_color</item>
+
+    </array>
+
+    <array name="pref_sort_option_values">
+        <item>@string/pref_sort_time_value</item>
+        <item>@string/pref_sort_color_value</item>
+
+    </array>
+
+    <array name="pref_app_style_option_labels">
+        <item>@string/pref_app_style_label_light</item>
+        <item>@string/pref_app_style_label_dark</item>
+        <item>@string/pref_app_style_label_hot</item>
+    </array>
+
+    <array name="pref_app_style_option_values">
+        <item>@string/pref_light_app_style_value</item>
+        <item>@string/pref_dark_app_style_value</item>
+        <item>@string/pref_hot_app_style_value</item>
+    </array>
+</resources>

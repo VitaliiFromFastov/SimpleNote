@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.simplenote">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+        <activity
+            android:name=".NotesListActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".NoteEditorActivity"
+            android:label="@string/edit_title"
+            android:parentActivityName=".NotesListActivity" />
+
+        <provider
+            android:name=".data.NoteProvider"
+            android:authorities="com.example.admin.simplenote"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".NotesListActivity" />
+
+        <activity android:name=".AddNoteActivity"
+            android:label="@string/add_new_note_title"
+            android:parentActivityName=".NotesListActivity"
+            />
+    </application>
+
+</manifest>

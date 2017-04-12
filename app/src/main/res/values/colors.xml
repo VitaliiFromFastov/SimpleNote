@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#29B6F6</color>
+
+    <color name="date_color">#263238</color>
+<color name="recycler_view_background">#EEEEEE</color>
+    <!--alertDialog colors-->
+    <color name="label_extra_high">#FF8A65</color>
+    <color name="label_high">#FFF9C4</color>
+    <color name="label_middle">#9CCC65</color>
+    <color name="label_low">#81D4FA</color>
+    <color name="label_extra_low">#F3E5F5</color>
+    <color name="cardViewColor">#FFFFFF</color>
+</resources>
